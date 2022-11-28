@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/43d94d0551.js" crossorigin="anonymous"></script>
+    <title>User Login</title>
+</head>
+
+<style>
+    body {
+        background-image: url(https://media.istockphoto.com/id/1080102360/photo/flat-lay-office-desk-workspace-with-office-supplies-pencil-green-leaf-with-coffee-and-paper.jpg?s=612x612&w=0&k=20&c=AVCpOw697e_54g20zXF5wYzq9M1_6WUppxGLgj2x7TY=);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 27%;
+        margin-top: 230px;
+        width: 100vh;
+        height: 50vh;
+    }
+
+    h2 {
+        margin-top: -3%;
+    }
+
+    .box input {
+        background: none;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: black
+    }
+
+    .box i {
+        width: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h2:hover {
+        transform: scale(1.2);
+        width: 50vh;
+    }
+
+    .submit {
+        margin-top: 2%;
+        margin-right: 32%;
+    }
+</style>
+
+<body>
+
+    <center>
+        <h1>Welcome to User Login</h1>
+        <h2><a href="/"><i>Home</i></a></a></h2><b></h2>
+            <div>
+                <form action="/UserLogin" method="post">
+                    <div class="box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="Email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-key"></i>
+                        <input type="password" name="Password" placeholder="Enter Password" required>
+                    </div>
+                    <div class="submit"> <input type="submit" value="Submit"> </div>
+                </form>
+            </div>
+    </center>
+
+</body>
+
+</html>

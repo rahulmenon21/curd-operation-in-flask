@@ -1,0 +1,9 @@
+create database flaskbackendproject;
+
+use flaskbackendproject;
+
+create table author(Name varchar(20),Email varchar(20),Password varchar(20),City varchar(20));
+
+create table user(Name varchar(20),Email varchar(20),Password varchar(20),City varchar(20));
+
+create table Author_Post(Name varchar(20),Title varchar(255),Post longtext);

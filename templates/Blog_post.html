@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blog</title>
+</head>
+
+<style>
+    body {
+        background-image: url(https://media.istockphoto.com/id/840566622/photo/top-view-desk.jpg?s=170667a&w=0&k=20&c=P6tyHN9zjvGqD2K1tMPIz4u4_eB94FXIv0SdOitVqzc=);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 5%;
+        margin-top: 170px;
+        width: 100vh;
+        height: 50vh;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+
+    .anchor h1:hover {
+        transform: scale(1.2);
+        width: 50vh;
+        
+    }
+
+    form:hover {
+        transform: scale(1.2);
+    }
+</style>
+
+<body>
+    <center>
+        <h1>Welcome to Blog</h1>
+        <div class="anchor">
+            <h1><a href="/"><i>Home</i></a></h1>
+        </div>
+        <form action="/blogcheck" method="post">
+            <table border="1px">
+                <tr>
+                    <td>AuthorName</td>
+                    <td><input type="text" name="Name" required></td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td><input type="text" name="Title" required></td>
+                </tr>
+                <tr>
+                    <td>Blog</td>
+                    <td><input type="text" name="Post" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="add post"></td>
+                    <td><input type="reset" value="refresh"></td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

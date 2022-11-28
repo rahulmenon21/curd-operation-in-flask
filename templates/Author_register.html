@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/43d94d0551.js" crossorigin="anonymous"></script>
+    <title>Author Registration</title>
+</head>
+
+<style>
+    body {
+        background-image: url(https://img.freepik.com/premium-photo/top-view-white-office-desk-table-with-copy-space-flat-lay_14098-353.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 50%;
+        margin-top: 200px;
+        width: 100vh;
+        height: 50vh;
+    }
+
+    h2 {
+        margin-top: -3%;
+    }
+
+    .box input {
+        background: none;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: black
+    }
+
+    .box i {
+        width: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h2:hover {
+        transform: scale(1.2);
+        width: 50vh;
+    }
+
+    .submit {
+        margin-top: 2%;
+        margin-right: 32%;
+    }
+</style>
+
+<body>
+
+    <center>
+        <h1>Welcome To Author Registration</h1><br>
+        <h2><a href="/"><i>Home</i></a></a></h2><b>
+            <div>
+                <form action="/adddata" method="post">
+                    <div class="box">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="Name" placeholder="Enter AuthorName" required>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-key"></i>
+                        <input type="password" name="Password" placeholder="Enter Password" required>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="Email" placeholder="Enter Email" required>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-globe"></i>
+                        <input type="text" name="City" placeholder="Enter City" required>
+                    </div>
+                    <div class="submit"> <input type="submit" value="Submit"> </div>
+                </form>
+            </div>
+    </center>
+
+</body>
+
+</html>
